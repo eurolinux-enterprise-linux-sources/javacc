@@ -30,7 +30,7 @@
 
 Name:           javacc
 Version:        5.0
-Release:        10%{?dist}
+Release:        9%{?dist}
 Epoch:          0
 Summary:        A parser/scanner generator for java
 License:        BSD
@@ -137,9 +137,6 @@ install -Dpm 644 pom.xml %{buildroot}/%{_mavenpomdir}/JPP-%{name}.pom
 %{_javadocdir}/%{name}
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 05.0-10
-- Mass rebuild 2013-12-27
-
 * Tue Jul 30 2013 Michal Srb <msrb@redhat.com> - 0:5.0-9
 - Generate javadoc
 - Drop group tag
